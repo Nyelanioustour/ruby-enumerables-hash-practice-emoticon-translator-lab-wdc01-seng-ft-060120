@@ -33,7 +33,7 @@ def get_japanese_emoticon(path, emoticon)
      # end
  
 end
-binding.pry 
+ 
 if output != nil 
   output
 else
