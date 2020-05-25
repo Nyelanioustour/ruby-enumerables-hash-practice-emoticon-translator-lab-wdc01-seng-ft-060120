@@ -16,7 +16,7 @@ emoticon_translate
 end
 
 def get_japanese_emoticon(emoticon)
-  load_library(path)
+  emoticon_translate = load_library(path)
   emoticon_translate
   binding.pry
 end
