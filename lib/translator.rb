@@ -25,12 +25,6 @@ def get_japanese_emoticon(path, emoticon)
     if emoticon == key[:english]
       output = key[:japanese]
     end
-    
-    #key.each do |language, t_emoticon|
-     # binding.pry 
-    #  if key[language] == emoticon 
-     #   output = t_emoticon
-     # end
  
 end
  
@@ -41,9 +35,20 @@ else
 end 
 end
 
-def get_english_meaning
+def get_english_meaning(path, emoticon)
+  emoticon_translate = load_library(path)
+  output = ""
   
-  
-  
-  # code goes here
+  emoticon_translate.each do |word, key|
+    
+    if emoticon == key[:english]
+      output = key[:japanese]
+    end
+end
+ 
+if output != "" 
+  output
+else
+  "Sorry, that emoticon was not found"
+end 
 end
