@@ -37,7 +37,7 @@ binding.pry
 if output != nil 
   output
 else
-  
+  "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning
