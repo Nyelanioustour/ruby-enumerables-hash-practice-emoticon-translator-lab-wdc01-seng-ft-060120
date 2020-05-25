@@ -34,7 +34,7 @@ def get_japanese_emoticon(path, emoticon)
  
 end
  
-if output != nil 
+if output != "" 
   output
 else
   "Sorry, that emoticon was not found"
