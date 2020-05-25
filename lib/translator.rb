@@ -23,6 +23,8 @@ def get_japanese_emoticon(path, emoticon)
       if emoticon == t_emoticon 
         output = t_emoticon
       end
+      if output = nil 
+        p 
   
 end
 end
