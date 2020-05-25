@@ -22,7 +22,7 @@ def get_japanese_emoticon(path, emoticon)
   emoticon_translate.each do |word, key|
     key.each do |language, t_emoticon|
       binding.pry 
-      if emoticon == t_emoticon 
+      if key[language] == emoticon 
         output = t_emoticon
       end
  
