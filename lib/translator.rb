@@ -42,7 +42,7 @@ def get_english_meaning(path, emoticon)
   emoticon_translate.each do |word, key|
     
     if emoticon == key[:japanese]
-      output = key[:japanese]
+      output = word
     end
 end
  
