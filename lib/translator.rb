@@ -15,8 +15,10 @@ emoticon_translate
 
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(emoticon)
+  load_library(path)
+  emoticon_translate
+  binding.pry
 end
 
 def get_english_meaning
