@@ -9,7 +9,7 @@ def load_library(path)
   emoticons.each do |english_word, emoticon_set|
     
    
-  emoticon_translate[english_word] = {english_word => {:english => emoticon_set.first, :japanese => emoticon_set.last}} 
+  emoticon_translate[english_word] = {:english => emoticon_set.first, :japanese => emoticon_set.last}
   
     end
     binding.pry
