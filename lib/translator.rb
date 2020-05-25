@@ -25,11 +25,11 @@ def get_japanese_emoticon(path, emoticon)
       if emoticon == t_emoticon 
         output = t_emoticon
       end
-  binding.pry 
+ 
 end
 
 end
-binding.pry 
+binding.pry
 end
 
 def get_english_meaning
