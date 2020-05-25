@@ -7,16 +7,12 @@ def load_library(path)
   emoticon_translate = Hash.new
 
   emoticons.each do |english_word, emoticon_set|
-    
    
   emoticon_translate[english_word] = {:english => emoticon_set.first, :japanese => emoticon_set.last}
-  
-    end
+      end
     
 emoticon_translate
-  
-   
-   
+
 end
 
 def get_japanese_emoticon
