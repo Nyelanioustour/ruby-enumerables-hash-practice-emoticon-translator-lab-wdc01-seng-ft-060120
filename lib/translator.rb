@@ -21,6 +21,7 @@ def get_japanese_emoticon(path, emoticon)
     key.each do |language, t_emoticon|
       if emoticon == t_emoticon 
         p t_emoticon
+      end
   binding.pry
 end
 end
