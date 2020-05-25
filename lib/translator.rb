@@ -12,7 +12,7 @@ def load_library(path)
   emoticon_translate[english_word] = {:english => emoticon_set.first, :japanese => emoticon_set.last}
   
     end
-    binding.pry
+    
 emoticon_translate
   
    
