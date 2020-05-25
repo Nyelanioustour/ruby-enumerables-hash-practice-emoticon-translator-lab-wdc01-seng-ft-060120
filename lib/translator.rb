@@ -17,9 +17,10 @@ end
 
 def get_japanese_emoticon(path, emoticon)
   emoticon_translate = load_library(path)
-  emoticon_translate.each do |element, key|
-    key.each do |language, emoticon|
-      if emoticon == 
+  emoticon_translate.each do |word, key|
+    key.each do |language, t_emoticon|
+      if emoticon == t_emoticon 
+        p 
   binding.pry
 end
 end
